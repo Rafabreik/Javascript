@@ -5,11 +5,19 @@ body,ul,li {
     list-style: none;
     font-family: Arial;
 }
+/* Site completo */ 
+#full{
+    margin-left: 120px;
+    position: relative;
+    width:800px;
+    height:100% ;
+}
 #hed{
     
   
     
 }
+/*div do cabeçalho da pagina*/
 #logo{
     position: relative;
     width: 1090px;
@@ -24,17 +32,24 @@ body,ul,li {
     margin-left: 10px;
     
 }
-#proc {
+#search {
     position: absolute;
     top: 34px;
     left: 35%;
 }
 #busca{
     position:absolute;
-    top: 40%;
+    top: 39%;
     left: 40%;
-    height: 18%;
-    border-radius: 5%;
+    height: 20px;
+    border-radius: 10%;
+    width: 167px;
+}
+#pesq {
+    position: absolute;
+    top: 40%;
+    left: 614px;
+    height:25px;
 }
 #tell {
     position: absolute;
@@ -55,56 +70,74 @@ body,ul,li {
     display: flex;
     justify-content: space-between;
     width: 1090px;
-    height: 25px;
+    height: 27px;
     border: 1px solid white;
-    padding-top: 4px;
-    border: 2px solid rebeccapurple;
+    background-color: rgb(24, 49, 129);
+    padding-top: 5px;
     border-radius: 5px;
+    margin-top: 5px;
 }
 #nav1 a{
     font-size: 20px;
-    padding: 8px;
     text-decoration: none;
+    color: white;
     
 }
 #menu{
-    margin-left: 10px;
+    color: white;
     font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px; 
     padding: 2px;
-    text-decoration: none; 
+    padding-left: 5px;
 }
 #redes {
     margin-right: 15px;
 }
 
 #menu1 {
+    height: 200px;
+    width: 171px;
+    border-radius: 5px;
+    background-color:rgb(43, 41, 41);
+    margin-top: 6px; 
+    display: grid;
     
 }
 #menu1 li{
-    height: 40px;
-    width: 120px;
-    border-bottom:2px solid rebeccapurple;
-    padding-left: 10px;
-    padding-top: 6px;
+    color: white;
+    margin-left: 8px;
+    
+    
 }
 #games{
-    margin-top: 20px;
+    margin-top: 18px;
+  
 }
 #baner{
     position: absolute;
-    top: 113px;
-    left: 110px;
-    height: 100%;
-    width: 982px;
+    top: 124px;
+    left: 180px;
+    height: 800px;
+    width: 913px;
     background-color: rgb(87, 77, 77);
     border-radius: 5px;
 }
-#princ{
+#imagem1{
     position: absolute;
     top: 2%;
     left: 2%;
     width: 400px;
     height: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+#imagem2 {
+    position: relative;
+    top: 16px;
+    left: 420px;
+    height: 150px;
+    width: 150px;
     background-color: white;
     border-radius: 5px;
 }
