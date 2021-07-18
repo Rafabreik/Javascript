@@ -57,11 +57,13 @@ body,ul,li {
     font-size: 30px;
 }
 #cxtexto {
+    padding: 5px;
     position: relative;
     height: 23px;
     border-radius: 10%;
     width: 270px;
-    top: 3px;
+    top: 0px;
+    left: -10px;
 }
 #btnbusca {
     position: absolute;
@@ -138,11 +140,11 @@ body,ul,li {
 }
 #nav2{
     position: absolute;
-    left: 150px;
+    left: 120px;
     top: 160px;
     z-index: 2;
     width: 190px;
-    height: 300px;
+    height: 270px;
     border-radius: 10px;
     background-color: var(--cor-backlist);
 }
@@ -175,7 +177,7 @@ body,ul,li {
     top: 160px;
     left: 350px;
     height: 800px;
-    width: 840px;
+    width: 870px;
     background-color: var(--cor-banner);
     border-radius: 5px;
 }
@@ -183,7 +185,7 @@ body,ul,li {
     position: absolute;
     top: 16px;
     left: 2%;
-    width: 80%;
+    width: 72%;
     height: 90%;
     background-color: white;
     border-radius: 5px;

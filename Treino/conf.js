@@ -24,7 +24,9 @@ const items = [
         nome: 'Nitendo',
         img: 'itens2.jpg',
         quantidade: 0
-    }
+    },
+    
+   // Acima Itens da Loja 
 ]
 
 
@@ -38,45 +40,52 @@ addEventos = () => {
     })
     //Acima Abrir e Fechar menu dropdown
 
-    obgs[1].addEventListener('click', function () {
-        list[9].innerHTML = 'Xbox Classic'
-        list[10].innerHTML = 'Xbox One'
-        list[11].innerHTML = 'Xbox 360'
-        list[12].innerHTML = 'Xbox Series'
-        list[13].innerHTML = 'Cheats'
+    obgs[1].addEventListener('click',function(){
 
-        
+        list[10].innerHTML = 'Home Brews'
+        list[11].innerHTML = 'Emunands'
+        list[12].innerHTML = 'Arcade'
+        list[13].innerHTML = 'Computador'
+        list[14].innerHTML = 'Cheats'
+    })
 
-        if (img1.lenght < 0) {
-            items.map((val) => {
+    obgs[2].addEventListener('click', function () {
+        list[10].innerHTML = 'Xbox Classic'
+        list[11].innerHTML = 'Xbox One'
+        list[12].innerHTML = 'Xbox 360'
+        list[13].innerHTML = 'Xbox Series'
+        list[14].innerHTML = 'Cheats'
+
+        items.map((val) => {
                 img1.innerHTML += `
                 <ul>
                     <li><img src="`+ val.img + `"/></li>
                     <li>`+ val.nome + `</li>
-                    <li><a key="`+ val.id + `" href="#">Adicionar ao carrinho !</a></li>
+                    <li><a key="`+ val.id + `" href="#">Fazer o Download !</a></li>
                 </ul> 
             `
              })
-        }
+        
     })
 
-obgs[2].addEventListener('click', function () {
-
-    list[9].innerHTML = "PlayStaton 1"
-    list[10].innerHTML = "PlayStaton 2"
-    list[11].innerHTML = "PlayStaton 3"
-    list[12].innerHTML = "PlayStaton 4"
-    list[13].innerHTML = "PlayStaton 5"
-})
-
 obgs[3].addEventListener('click', function () {
-    list[9].innerHTML = 'Nitendo Wii'
-    list[10].innerHTML = 'Nitendo WiiU'
-    list[11].innerHTML = 'Nitendo 3DS'
-    list[12].innerHTML = 'Nitendo Switch'
 
+    list[10].innerHTML = "PlayStaton 1"
+    list[11].innerHTML = "PlayStaton 2"
+    list[12].innerHTML = "PlayStaton 3"
+    list[13].innerHTML = "PlayStaton 4"
+    list[14].innerHTML = "PlayStaton 5"
 })
 
+obgs[4].addEventListener('click', function () {
+    list[10].innerHTML = 'Nitendo Wii'
+    list[11].innerHTML = 'Nitendo WiiU'
+    list[12].innerHTML = 'Nitendo 3DS'
+    list[13].innerHTML = 'Nitendo Switch'
+    list[14].innerHTML = 'Nitendo 64'
+
+})
+// Acima Listar dinâmicamente as categorias na lista 
     
 
 }
