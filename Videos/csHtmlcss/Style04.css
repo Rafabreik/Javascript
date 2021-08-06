@@ -1,0 +1,36 @@
+:root{
+    --cor-fundo : rgb(8, 8, 8);
+    }
+    body{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        background-color: var(--cor-fundo);
+    }
+    .home{
+        display: flex;
+        justify-content: center;
+        width: 650px;
+        height: 600px;
+        background-color: var(--cor-fundo);
+    }
+    nav h1{
+        margin-left: 60px;
+        color: floralwhite;
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 2px;
+        font-size: 40px;
+    }
+    nav h3 a{
+        margin-left: 180px;
+        text-decoration: none;
+        color: floralwhite;
+    }
+    nav h3 a:hover{
+        color: gold;
+        transition: 250ms;
+    }
+    nav img{
+        margin-left: 250px;
+    }

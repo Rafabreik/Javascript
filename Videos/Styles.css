@@ -1,0 +1,46 @@
+:root{
+--cor-fundo : rgb(14, 13, 13);
+--cor-text : rgb(77, 77, 77);
+}
+body{
+    padding: 0px;
+    background-color: var(--cor-fundo);
+    
+}
+
+.home {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    top: 50px;
+    left: 40px;
+    background-color: var(--cor-fundo);
+    margin: 0 auto;
+    
+}
+h1{
+    color: honeydew;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    white-space: nowrap;
+    margin-left: 120px;
+}
+h1:hover{
+    font-size: 50px;
+    margin-left: 60px;
+    transition: 50ms;
+}
+.menu{
+    margin-left: 155px;
+    height: 250px;
+    width: 500px;
+    background-color: var(--cor-fundo);
+}
+
+/* hover da imgs*/
+.select{
+    transition: 150ms;
+    width: 250px;
+    border: white solid;
+}
